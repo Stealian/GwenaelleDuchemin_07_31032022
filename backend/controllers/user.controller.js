@@ -1,7 +1,7 @@
 const dbc = require("../config/db");
 const db = dbc.getDB();
 
-// RUD users
+// CRUD users
 
 exports.getOneUser = (req, res, next) => {
   const { id: userId } = req.params;
